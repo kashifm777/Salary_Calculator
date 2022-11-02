@@ -8,7 +8,6 @@ def main():
 	choice = st.sidebar.selectbox("Menu",menu)
 
 	if choice == "Home":
-		st.subheader("Forms Tutorial")
 
 		with st.form(key='salaryform'):
 			col1,col2,col3 = st.columns([3,2,1])
